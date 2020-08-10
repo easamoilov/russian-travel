@@ -1,16 +1,10 @@
+@import url(./_content/container_content_default.css);
+@import url(./_content/container_content_lead.css);
+@import url(./_content/container_content_intro.css);
+
 .container {
-  max-width: calc(100% - 48px - 48px);
+  box-sizing: border-box;
+  max-width: 1184px;
+  width: 100%;
   margin: 0 auto;
-}
-
-@media screen and (max-width:768px) {
-  .container {
-    max-width: calc(100% - 24px - 24px);
-  }
-}
-
-@media screen and (max-width:425px) {
-  .container {
-    max-width: calc(100% - 16px - 16px);
-  }
 }

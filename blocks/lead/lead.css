@@ -13,7 +13,7 @@
   font-family: 'Inter';
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 1.04;
   margin-top: 56px;
   color: #fff;
 }
@@ -26,7 +26,7 @@
   font-family: 'Inter';
   font-weight: normal;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   color: #fff;
 }
 
@@ -35,7 +35,6 @@
   margin-top: 64px;
   width: 100%;
   object-fit: contain;
-  max-width: 984px;
 }
 
 .lead__caption {
@@ -45,11 +44,35 @@
   font-family: 'Inter';
   font-weight: normal;
   font-size: 10px;
-  line-height: 14px;
+  line-height: 1.4;
   letter-spacing: .15em;
   text-transform: uppercase;
   color: #fff;
   align-self: flex-start;
+}
+
+.test {
+  margin: 0;
+  max-width: 720px;
+  text-align: center;
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.04;
+  margin-top: 5px;
+  color: #fff;
+}
+
+.test2 {
+  margin: 0;
+  max-width: 720px;
+  text-align: center;
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.1;
+  margin-top: 5px;
+  color: #fff;
 }
 
 @media screen and (max-width:1280px) {
@@ -62,22 +85,36 @@
   }
 }
 
+/* Уравнение прямой проходящей через заданные точки
+  (х-х1)/(х2-х1) = (у-у1)/(у2-у1)
+  у = ((х-х1)(у2-у1))/(х2-х1) + у1
+*/
 @media screen and (max-width:768px) {
   .lead {
     max-width: 100%;
   }
 
+  /*
+  768 -> 320
+  max-width: 720 -> 288
+  font-size: 96 -> 40
+  */
   .lead__title {
-    font-size: 40px;
-    line-height: 44px;
-    max-width: 288px;
+    font-size: calc((100vw - 320px) * (96 - 40) / (768 - 320) + 40px);
+    line-height: 1.1;
+    max-width: calc((100vw - 320px) * (720 - 288) / (768 - 320) + 288px);
   }
 
+  /*
+  768 -> 320
+  max-width: 640 -> 288
+  font-size: 30 -> 16
+  */
   .lead__subtitle {
     margin-top: 16px;
-    font-size: 16px;
-    line-height: 20px;
-    max-width: 288px;
+    font-size: calc((100vw - 320px) * (30 - 16) / (768 - 320) + 16px);
+    line-height: 1.2;
+    max-width: calc((100vw - 320px) * (640 - 288) / (768 - 320) + 288px);
   }
 
   .lead__caption {
