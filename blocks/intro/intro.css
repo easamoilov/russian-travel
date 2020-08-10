@@ -37,6 +37,10 @@
   font-weight: bold;
 }
 
+.intro__list-item_type_counter {
+  font-weight: normal;
+}
+
 @media screen and (max-width:768px) {
   .intro__title {
     margin-top: 88px;

@@ -3,10 +3,10 @@
   padding-right: 100px;
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1184px) {
   .container_content_lead {
-    padding-left: calc((100vw - 1024px) * (100 - 48) / (1280 - 1024) + 48px);
-    padding-right: calc((100vw - 1024px) * (100 - 48) / (1280 - 1024) + 48px);
+    padding-left: calc((100vw - 1024px) * (100 - 48) / (1184 - 1024) + 48px);
+    padding-right: calc((100vw - 1024px) * (100 - 48) / (1184 - 1024) + 48px);
   }
 }
 
