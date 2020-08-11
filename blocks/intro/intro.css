@@ -5,7 +5,6 @@
 
 .intro__title {
   margin: 0;
-  margin-top: 92px;
   font-size: 54px;
   line-height: 1.07;
   color: #fff;
@@ -43,14 +42,7 @@
 
 @media screen and (max-width:768px) {
   .intro__title {
-    margin-top: 88px;
     font-size: calc((100vw - 320px) * (54 - 32) / (768 - 320) + 32px);
     line-height: 1.09;
-  }
-}
-
-@media screen and (max-width:425px) {
-  .intro__title {
-    margin-top: 64px;
   }
 }

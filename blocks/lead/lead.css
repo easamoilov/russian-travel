@@ -1,6 +1,4 @@
 .lead {
-  box-sizing: border-box;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,10 +64,6 @@
   у = ((х-х1)(у2-у1))/(х2-х1) + у1
 */
 @media screen and (max-width:768px) {
-  .lead {
-    max-width: 100%;
-  }
-
   .lead__title {
     font-size: calc((100vw - 320px) * (96 - 40) / (768 - 320) + 40px);
     line-height: 1.1;

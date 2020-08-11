@@ -1,5 +1,4 @@
 .cover {
-  padding-top: 92px;
   row-gap: 32px;
   position: relative;
 }
@@ -60,7 +59,6 @@
 
 
 @media screen and (max-width:768px) {
-
   .cover__title {
     font-size: calc((100vw - 320px) * (72 - 32) / (768 - 320) + 32px);
     line-height: 1.09;

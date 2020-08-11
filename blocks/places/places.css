@@ -1,5 +1,4 @@
 .places {
-  padding-top: 92px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 80px;
