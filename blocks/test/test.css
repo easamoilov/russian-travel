@@ -1,0 +1,42 @@
+.test-container {
+  max-width: 1280px;
+  display: grid;
+  margin: 0 auto;
+  border: 1px solid red;
+  grid-template-columns: 48px 1fr 48px;
+  grid-template-areas:
+    ". content1 ."
+    ". content2 ."
+    ". content3 ."
+  ;
+}
+
+.test-content1 {
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  grid-area: content1;
+}
+
+.test-content2 {
+  max-width: 984px;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  display: flex;
+  grid-area: content2;
+}
+
+.test-content3 {
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  grid-area: content3;
+}

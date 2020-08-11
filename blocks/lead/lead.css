@@ -51,30 +51,6 @@
   align-self: flex-start;
 }
 
-.test {
-  margin: 0;
-  max-width: 720px;
-  text-align: center;
-  font-family: 'Inter';
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 1.04;
-  margin-top: 5px;
-  color: #fff;
-}
-
-.test2 {
-  margin: 0;
-  max-width: 720px;
-  text-align: center;
-  font-family: 'Inter';
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 1.1;
-  margin-top: 5px;
-  color: #fff;
-}
-
 @media screen and (max-width:1280px) {
   .lead__title {
     margin-top: 48px;
@@ -94,22 +70,12 @@
     max-width: 100%;
   }
 
-  /*
-  768 -> 320
-  max-width: 720 -> 288
-  font-size: 96 -> 40
-  */
   .lead__title {
     font-size: calc((100vw - 320px) * (96 - 40) / (768 - 320) + 40px);
     line-height: 1.1;
     max-width: calc((100vw - 320px) * (720 - 288) / (768 - 320) + 288px);
   }
 
-  /*
-  768 -> 320
-  max-width: 640 -> 288
-  font-size: 30 -> 16
-  */
   .lead__subtitle {
     margin-top: 16px;
     font-size: calc((100vw - 320px) * (30 - 16) / (768 - 320) + 16px);
