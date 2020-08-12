@@ -1,3 +1,5 @@
+@import url("./__link/page__link.css");
+
 .page {
   box-sizing: border-box;
   min-width: 320px;
@@ -11,12 +13,4 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-}
-
-.page__link {
-  transition: opacity .3s ease;
-}
-
-.page__link:hover {
-  opacity: .8;
 }

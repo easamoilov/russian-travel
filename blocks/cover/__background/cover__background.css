@@ -1,0 +1,6 @@
+.cover__background {
+  position: relative;
+  background-image: url(../../../images/blocks/cover/cover-trains.jpg);
+  background-size: cover;
+  padding-bottom: 50%;
+}

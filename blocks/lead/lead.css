@@ -1,87 +1,10 @@
+@import url("./__caption/lead__caption.css");
+@import url("./__image/lead__image.css");
+@import url("./__subtitle/lead__subtitle.css");
+@import url("./__title/lead__title.css");
+
 .lead {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.lead__title {
-  margin: 0;
-  max-width: 720px;
-  text-align: center;
-  font-family: 'Inter';
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 1.04;
-  margin-top: 56px;
-  color: #fff;
-}
-
-.lead__subtitle {
-  margin: 0;
-  margin-top: 32px;
-  max-width: 640px;
-  text-align: center;
-  font-family: 'Inter';
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 1.2;
-  color: #fff;
-}
-
-.lead__image {
-  margin: 0;
-  margin-top: 64px;
-  width: 100%;
-  object-fit: contain;
-}
-
-.lead__caption {
-  margin: 0;
-  margin-top: 8px;
-  text-align: left;
-  font-family: 'Inter';
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 1.4;
-  letter-spacing: .15em;
-  text-transform: uppercase;
-  color: #fff;
-  align-self: flex-start;
-}
-
-@media screen and (max-width:1280px) {
-  .lead__title {
-    margin-top: 48px;
-  }
-
-  .lead__image {
-    margin-top: 56px;
-  }
-}
-
-/* Уравнение прямой проходящей через заданные точки
-  (х-х1)/(х2-х1) = (у-у1)/(у2-у1)
-  у = ((х-х1)(у2-у1))/(х2-х1) + у1
-*/
-@media screen and (max-width:768px) {
-  .lead__title {
-    font-size: calc((100vw - 320px) * (96 - 40) / (768 - 320) + 40px);
-    line-height: 1.1;
-    max-width: calc((100vw - 320px) * (720 - 288) / (768 - 320) + 288px);
-  }
-
-  .lead__subtitle {
-    margin-top: 16px;
-    font-size: calc((100vw - 320px) * (30 - 16) / (768 - 320) + 16px);
-    line-height: 1.2;
-    max-width: calc((100vw - 320px) * (640 - 288) / (768 - 320) + 288px);
-  }
-
-  .lead__caption {
-    margin-left: 16px;
-  }
-
-  .lead__image {
-    margin-top: 40px;
-  }
 }
