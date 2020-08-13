@@ -16,4 +16,4 @@
 8. Что делать, если не получается сделать страницу адаптивной
 9. GIT для взрослых
 
-[Ссылка на страницу] (https://easamoilov.github.io/russian-travel/)
+[Ссылка на страницу](https://easamoilov.github.io/russian-travel/)
