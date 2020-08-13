@@ -1,0 +1,18 @@
+@import url(./_content/container_content_header.css);
+@import url(./_content/container_content_lead.css);
+@import url(./_content/container_content_intro.css);
+@import url(./_content/container_content_photo-grid.css);
+@import url(./_content/container_content_places.css);
+@import url(./_content/container_content_cover.css);
+@import url(./_content/container_content_footer.css);
+
+
+/*
+Микс для блоков. Все отступы и медиа-запросы будут указаны в модификаторах
+Таким образом блоки будут более независимыми
+*/
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+}

@@ -1,0 +1,26 @@
+.container_content_lead {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* Для плавного уменьшения отступов использую уравнение прямой по двум точкам */
+@media screen and (max-width:1280px) {
+  .container_content_lead {
+    padding-left: calc((100vw - 1024px) * (100 - 48) / (1280 - 1024) + 48px);
+    padding-right: calc((100vw - 1024px) * (100 - 48) / (1280 - 1024) + 48px);
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .container_content_lead {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .container_content_lead {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
