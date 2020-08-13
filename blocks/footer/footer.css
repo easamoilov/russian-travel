@@ -1,8 +1,11 @@
+@import url("./__links/footer__links.css");
+@import url("./__links-item/footer__links-item.css");
 @import url("./__copyright/footer__copyright.css");
 @import url("./__link/footer__link.css");
 
 .footer {
   display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width:720px) {
